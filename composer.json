@@ -1,0 +1,37 @@
+{
+    "name": "phrity/websocket-graphql",
+    "type": "library",
+    "description": "WebSocket GraphQL server",
+    "homepage": "https://phrity.sirn.se/websocket-graphql",
+    "keywords": ["websocket", "graphql", "server"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sören Jensen",
+            "email": "sirn@sirn.se",
+            "homepage": "https://phrity.sirn.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phrity\\WebSocket\\GraphQL\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phrity\\WebSocket\\GraphQL\\Test\\": "tests/mock/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "phrity/websocket": "^3.0",
+        "webonyx/graphql-php": "^15.0"
+    },
+    "require-dev": {
+        "php-coveralls/php-coveralls": "^2.0",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^10.0 | ^11.0 | ^12.0",
+        "phrity/net-mock": "^2.3",
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
