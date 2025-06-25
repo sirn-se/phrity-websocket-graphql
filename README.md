@@ -3,9 +3,11 @@
 # Websocket GraphQL Server for PHP
 
 [![Build Status](https://github.com/sirn-se/phrity-websocket-graphql/actions/workflows/acceptance.yml/badge.svg)](https://github.com/sirn-se/phrity-websocket-graphql/actions)
-[![Coverage Status](https://coveralls.io/repos/github/sirn-se/phrity-websocket-graphql/badge.svg?branch=v2.0-main)](https://coveralls.io/github/sirn-se/phrity-websocket-graphql)
+[![Coverage Status](https://coveralls.io/repos/github/sirn-se/phrity-websocket-graphql/badge.svg?branch=main)](https://coveralls.io/github/sirn-se/phrity-websocket-graphql)
 
 This library provides a GraphQL server over WebSocket.
+
+It connects two popular and well developed libraries to achieve a competent and highly configurable server.
 
 - [phrity/websocket](https://packagist.org/packages/phrity/websocket) for WebSocket server
 - [webonyx/graphql-php](https://packagist.org/packages/webonyx/graphql-php) for GraphQL API
@@ -18,6 +20,8 @@ composer require phrity/websocket-graphql
 ```
 
 ## Setup
+
+You only need to create a GraphQL server config and add it to the middleware provided by this library.
 
 ```php
 // Setup GraphQL server configuration with schema etc
