@@ -3,7 +3,6 @@
 # Websocket GraphQL Server for PHP
 
 [![Build Status](https://github.com/sirn-se/phrity-websocket-graphql/actions/workflows/acceptance.yml/badge.svg)](https://github.com/sirn-se/phrity-websocket-graphql/actions)
-[![Coverage Status](https://coveralls.io/repos/github/sirn-se/phrity-websocket-graphql/badge.svg?branch=main)](https://coveralls.io/github/sirn-se/phrity-websocket-graphql)
 
 This library provides a GraphQL server over WebSocket.
 
