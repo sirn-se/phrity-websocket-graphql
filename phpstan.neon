@@ -1,7 +1,10 @@
 parameters:
 	level: 8
 	paths:
-		- examples
 		- src
 		- tests
 	treatPhpDocTypesAsCertain: false
+	exceptions:
+	    check:
+	        tooWideThrowType: true
+	    implicitThrows: false
