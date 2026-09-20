@@ -28,18 +28,15 @@ use WebSocket\Middleware\{
     ProcessHttpStack,
 };
 use WebSocket\Trait\{
-    LoggerAwareTrait,
     StringableTrait,
 };
 
 class Middleware implements
-    LoggerAwareInterface,
     ProcessIncomingInterface,
     ProcessHttpIncomingInterface,
     ProcessHttpOutgoingInterface,
     Stringable
 {
-    use LoggerAwareTrait;
     use StringableTrait;
 
     private Helper $helper;
